@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Data from './Components/data'
 import propertiesData from './assets/data/properties.json'
-import ResultList from './Components/ResultList.jsx'
+import ResultList from './components/ResultsList.jsx'
 
 function App() {
   const [properties] = useState(propertiesData);
