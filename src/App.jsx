@@ -1,8 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Data from './Components/data'
+import Form from './components/searchForm.jsx'
 import propertiesData from './assets/data/properties.json'
 import ResultList from './components/ResultsList.jsx'
 
@@ -13,8 +11,9 @@ function App() {
   return (
     <>
     {/* <div>{JSON.stringify(properties)}</div> */}
+    <Form/>
     <ResultList properties={properties} />
-    <Data />
+    <Form />
     </>
   )
 }
