@@ -1,0 +1,191 @@
+export const PROPERTIES = [
+  {
+    id: 'prop-1',
+    type: 'house',
+    price: 925000,
+    bedrooms: 4,
+    postcode: 'NW1 8UR',
+    dateAdded: '2024-11-12',
+    mainImage:
+      'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1400&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1484156818044-c040038b0710?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1502005097973-6a7082348e28?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1460518451285-97b6aa326961?auto=format&fit=crop&w=1200&q=80'
+    ],
+    shortDescription: 'Elegant four-bedroom Victorian townhouse with landscaped garden in Primrose Hill',
+    longDescription:
+      'A light-filled period home featuring double reception rooms, bespoke kitchen with marble counters, underfloor heating, and bi-fold doors leading to a south-facing garden. Moments from Regents Park and Primrose Hill village amenities.',
+    floorPlan: 'https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=900&q=80',
+    location: {
+      address: 'Primrose Hill, London NW1',
+      lat: 51.5362,
+      lng: -0.1612
+    }
+  },
+  {
+    id: 'prop-2',
+    type: 'flat',
+    price: 625000,
+    bedrooms: 2,
+    postcode: 'SW11 7AA',
+    dateAdded: '2024-09-05',
+    mainImage:
+      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1400&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1515263487990-61b07816b324?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80'
+    ],
+    shortDescription: 'Riverside two-bedroom apartment with balcony and concierge in Battersea',
+    longDescription:
+      'Open-plan living with floor-to-ceiling glazing, Siemens appliances, and engineered oak floors. Residents enjoy a 24/7 concierge, gym, and landscaped podium gardens opposite Battersea Park.',
+    floorPlan: 'https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=900&q=80',
+    location: {
+      address: 'Battersea, London SW11',
+      lat: 51.4755,
+      lng: -0.1527
+    }
+  },
+  {
+    id: 'prop-3',
+    type: 'house',
+    price: 1450000,
+    bedrooms: 5,
+    postcode: 'BR1 2XS',
+    dateAdded: '2024-12-01',
+    mainImage:
+      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1400&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1475855581690-80accde3ae2b?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1460518451285-97b6aa326961?auto=format&fit=crop&w=1200&q=80'
+    ],
+    shortDescription: 'Substantial detached family home with carriage driveway and mature gardens',
+    longDescription:
+      'Spacious entrance hall, triple-aspect reception rooms, luxury kitchen/family room, and five generous bedrooms. Set on a quiet tree-lined road close to excellent schools.',
+    floorPlan: 'https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=900&q=80',
+    location: {
+      address: 'Bromley, BR1',
+      lat: 51.4051,
+      lng: 0.0156
+    }
+  },
+  {
+    id: 'prop-4',
+    type: 'flat',
+    price: 475000,
+    bedrooms: 1,
+    postcode: 'E1 6AN',
+    dateAdded: '2024-08-20',
+    mainImage:
+      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1400&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1484156818044-c040038b0710?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1484156818044-c040038b0710?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1460518451285-97b6aa326961?auto=format&fit=crop&w=1200&q=80'
+    ],
+    shortDescription: 'Warehouse-style loft with exposed brick and mezzanine in Shoreditch',
+    longDescription:
+      'Stylish open-plan warehouse conversion featuring crittall windows, polished concrete floors, and a generous mezzanine bedroom. Moments from Shoreditch High Street and Spitalfields Market.',
+    floorPlan: 'https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=900&q=80',
+    location: {
+      address: 'Shoreditch, London E1',
+      lat: 51.5246,
+      lng: -0.0779
+    }
+  },
+  {
+    id: 'prop-5',
+    type: 'house',
+    price: 820000,
+    bedrooms: 3,
+    postcode: 'SE10 9NF',
+    dateAdded: '2024-10-15',
+    mainImage:
+      'https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1400&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1484156818044-c040038b0710?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1460518451285-97b6aa326961?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1502005097973-6a7082348e28?auto=format&fit=crop&w=1200&q=80'
+    ],
+    shortDescription: 'Georgian terrace with modern extension moments from Greenwich Park',
+    longDescription:
+      'Beautifully restored three-bedroom home with period fireplaces, oak floors, skylit kitchen-diner and bi-fold doors to a landscaped courtyard garden. Close to the river and Greenwich Market.',
+    floorPlan: 'https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=900&q=80',
+    location: {
+      address: 'Greenwich, London SE10',
+      lat: 51.4817,
+      lng: 0.0098
+    }
+  },
+  {
+    id: 'prop-6',
+    type: 'flat',
+    price: 355000,
+    bedrooms: 1,
+    postcode: 'M1 4BT',
+    dateAdded: '2024-07-02',
+    mainImage:
+      'https://images.unsplash.com/photo-1484156818044-c040038b0710?auto=format&fit=crop&w=1400&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1515263487990-61b07816b324?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1484156818044-c040038b0710?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1475855581690-80accde3ae2b?auto=format&fit=crop&w=1200&q=80'
+    ],
+    shortDescription: 'Canal-side loft apartment with exposed brick and Juliet balcony in Manchester',
+    longDescription:
+      'Light-filled warehouse loft featuring double-height ceilings, steel beams, and polished concrete floors. Overlooks the Rochdale Canal, with coffee shops and tram links on your doorstep.',
+    floorPlan: 'https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=900&q=80',
+    location: {
+      address: 'Northern Quarter, Manchester M1',
+      lat: 53.4808,
+      lng: -2.2374
+    }
+  },
+  {
+    id: 'prop-7',
+    type: 'house',
+    price: 1180000,
+    bedrooms: 4,
+    postcode: 'BS8 3RA',
+    dateAdded: '2024-06-18',
+    mainImage:
+      'https://images.unsplash.com/photo-1472220625704-91e1462799b2?auto=format&fit=crop&w=1400&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1475855581690-80accde3ae2b?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1484156818044-c040038b0710?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1502005097973-6a7082348e28?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1460518451285-97b6aa326961?auto=format&fit=crop&w=1200&q=80'
+    ],
+    shortDescription: 'Grade II listed townhouse overlooking the Downs with period charm',
+    longDescription:
+      'Four-bedroom Bristol townhouse with original sash windows, ornate cornicing, and a sunlit orangery opening to a walled garden. Short stroll to Clifton Village cafes and boutique shops.',
+    floorPlan: 'https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=900&q=80',
+    location: {
+      address: 'Clifton, Bristol BS8',
+      lat: 51.4577,
+      lng: -2.6220
+    }
+  }
+];
