@@ -6,7 +6,7 @@ import HeaderBar from './components/HeaderBar';
 import PropertyDetails from './components/PropertyDetails';
 import ResultsGrid from './components/ResultsGrid';
 import SearchPanel from './components/SearchPanel';
-import './assets/data/properties.json'
+
 const initialCriteria = {
   type: 'any',
   minPrice: '',
@@ -29,7 +29,7 @@ const App = () => {
   const [criteria, setCriteria] = useState(initialCriteria);
 
   useEffect(() => {
-    fetch('./assets/data/properties.json')
+    fetch('/properties.json')
       .then((response) => response.json())
       .then((data) => setProperties(data.properties))
       .catch((error) => console.error('Error loading properties:', error));
