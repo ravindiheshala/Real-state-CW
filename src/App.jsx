@@ -151,15 +151,7 @@ const App = () => {
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-theme-text/60 text-sm">© 2024 Elite Estates. All rights reserved.</p>
           <div className="flex justify-center gap-6 mt-4 text-xs text-theme-text/40">
-            <a href="#" className="hover:text-theme-text">
-              Privacy Policy
-            </a>
-            <a href="#" className="hover:text-theme-text">
-              Terms of Use
-            </a>
-            <a href="#" className="hover:text-theme-text">
-              Contact
-            </a>
+
           </div>
         </div>
       </footer>
