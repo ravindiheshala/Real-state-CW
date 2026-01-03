@@ -9,20 +9,7 @@ const HeaderBar = ({ onLogoClick }) => (
           Elite Estates
         </h1>
       </div>
-      <nav className="hidden md:flex items-center gap-8 text-sm font-sans text-theme-text/80">
-        <a href="#" className="hover:text-theme-text hover:underline decoration-1 underline-offset-4 transition-all">
-          Buy
-        </a>
-        <a href="#" className="hover:text-theme-text hover:underline decoration-1 underline-offset-4 transition-all">
-          Rent
-        </a>
-        <a href="#" className="hover:text-theme-text hover:underline decoration-1 underline-offset-4 transition-all">
-          Commercial
-        </a>
-        <a href="#" className="hover:text-theme-text hover:underline decoration-1 underline-offset-4 transition-all">
-          Find Agent
-        </a>
-      </nav>
+
     </div>
   </header>
 );
