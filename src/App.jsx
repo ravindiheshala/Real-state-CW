@@ -29,7 +29,7 @@ const App = () => {
   const [criteria, setCriteria] = useState(initialCriteria);
 
   useEffect(() => {
-    fetch('./properties.json')
+    fetch(`${import.meta.env.BASE_URL}properties.json`)
       .then((response) => response.json())
       .then((data) => setProperties(data.properties))
       .catch((error) => console.error('Error loading properties:', error));
